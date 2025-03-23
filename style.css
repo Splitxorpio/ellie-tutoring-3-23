@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.appetizers{
+    background-color: white;
+    width: 300px;
+    padding: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 0px 10px;
+}
+.containerize-column{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: whitesmoke;
+}
+.containerize-row{
+    display: flex;
+    width: 100vw;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+}
